@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ángulos de Trayectoria</title>
+    <!-- Agregar las bibliotecas de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        #resultado {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Calculadora de Ángulos de Trayectoria</h1>
+
+        <form id="formulario" class="mt-4">
+            <div class="mb-3">
+                <label for="xInicial" class="form-label">Coordenada X Inicial:</label>
+                <input type="number" class="form-control" id="xInicial" required step="any">
+            </div>
+
+            <div class="mb-3">
+                <label for="yInicial" class="form-label">Coordenada Y Inicial:</label>
+                <input type="number" class="form-control" id="yInicial" required step="any">
+            </div>
+
+            <div class="mb-3">
+                <label for="xDestino" class="form-label">Coordenada X Destino:</label>
+                <input type="number" class="form-control" id="xDestino" required step="any">
+            </div>
+
+            <div class="mb-3">
+                <label for="yDestino" class="form-label">Coordenada Y Destino:</label>
+                <input type="number" class="form-control" id="yDestino" required step="any">
+            </div>
+
+            <button type="button" class="btn btn-success" onclick="calcularAnguloTrayectoria()">Calcular Ángulo</button>
+        </form>
+
+        <p id="resultado" class="mt-4"></p>
+    </div>
+    <a class="btn btn-dark" href="../index.html">Volver a la Página Principal</a>
+
+    <!-- Agregar la biblioteca de Bootstrap y el script de la aplicación -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
