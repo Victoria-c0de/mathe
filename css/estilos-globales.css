@@ -1,0 +1,31 @@
+#contenedorSecciones {
+    display: flex;
+    justify-content: space-between;
+    /* Esto distribuirá el espacio entre las secciones */
+    flex-wrap: wrap;
+    /* Permite que las secciones se muevan a la siguiente línea si no hay espacio suficiente */
+}
+
+/* Estilos para cada sección */
+#seccion1,
+#seccion2,
+#seccion3,
+#seccion4 {
+    flex: 1;
+    /* Hace que cada sección ocupe el mismo espacio */
+    max-width: 400px;
+    /* Establece el ancho máximo de cada sección */
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Estilos específicos para pantallas pequeñas */
+    button {
+        padding: 8px 16px;
+    }
+}

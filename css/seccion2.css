@@ -1,0 +1,66 @@
+/* Dentro de seccion2.css */
+
+/* Estilos generales para la sección */
+#seccion2 {
+    background-color: #f8f9fa;
+    /* Fondo de la sección */
+    padding: 50px 0;
+    /* Espaciado interno */
+    text-align: center;
+}
+
+/* Estilos para las actividades individuales */
+.actividad {
+    margin-bottom: 40px;
+    /* Espaciado inferior entre actividades */
+}
+
+.actividad h3 {
+    color: #007bff;
+    /* Color del título de la actividad */
+}
+
+.actividad p {
+    font-size: 16px;
+    /* Tamaño del texto de la actividad */
+    color: #333;
+    /* Color del texto de la actividad */
+}
+
+/* Estilos para las imágenes de las actividades */
+.actividad img {
+    max-width: 100%;
+    /* Imágenes responsivas que se ajustan al ancho del contenedor */
+    border-radius: 8px;
+    /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sutil sombra para las imágenes */
+}
+
+/* Estilo para el título principal de la sección */
+#seccion2 h2 {
+    color: #343a40;
+    /* Color del título principal */
+}
+
+/* Alineación del contenido en el centro */
+#seccion2 p,
+#seccion2 h3 {
+    text-align: center;
+}
+
+/* Estilo para el botón de volver */
+a.btn-dark {
+    display: inline-block;
+    margin-top: 20px;
+    /* Ajusta el margen superior según sea necesario */
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Estilos específicos para pantallas pequeñas */
+    button {
+        padding: 8px 16px;
+    }
+}

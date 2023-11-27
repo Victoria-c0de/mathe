@@ -1,0 +1,12 @@
+.caracteristicas-nave {
+    background-color: #9d1515;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Estilos específicos para pantallas pequeñas */
+    button {
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/seccion1.css">
+    <link rel="stylesheet" href="css/seccion2.css">
+    <link rel="stylesheet" href="css/seccion3.css">
+    <link rel="stylesheet" href="css/seccion4.css">
+    <link rel="stylesheet" href="css/estilos-globales.css">
+
+    <!-- Incluye Bootstrap CSS (puedes cambiar la URL si estás usando un CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <title>MarsNavigator</title>
+</head>
+
+<body>
+
+    <!-- Barra de Navegación con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MarsNavigator</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/seccion1.html">Conceptos claves</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/seccion2.html">Actividades de Trigonometria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/seccion3.html">Modelos 3D</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Título e informacion relevante-->
+    <div class="container mt-4">
+        <h1 class="text-center">¡Bienvenidos a nuestro Simulador Espacial!</h1>
+    </div>
+    <div class="container">
+        <p class="text-justify">Hola a todos, soy Victoria, estudiante de informática, y estoy emocionada de
+            presentarles mi
+            innovadora aplicación: el Simulador de Trayectorias hacia Marte. Esta herramienta está diseñada para
+            explorar y
+            comprender las complejas rutas que una nave espacial puede seguir desde la Tierra hasta Marte con la ayuda
+            de
+            las Matematicas!</p>
+
+    </div>
+
+
+    <!-- Sección de Objetivo de la Aplicación -->
+    <section id="objetivo" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Objetivo de <strong>MarsNavigator</strong></h2>
+                    <p class="lead">La aplicación tiene como objetivo brindar una experiencia interactiva y
+                        educativa al usuario, permitiéndole:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="bi bi-check-circle text-success"></i> Definir las coordenadas iniciales de la nave
+                            en el espacio tridimensional.
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle text-success"></i> Especificar la velocidad inicial de la nave
+                            en términos de velocidad lineal y angular.
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle text-success"></i> Realizar actividades relacionadas con
+                            conceptos de trigonometría en el contexto espacial.
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle text-success"></i> Explorar modelos 3D de diversas órbitas de
+                            Marte, comprendiendo cómo las coordenadas afectan el tiempo de viaje.
+                        </li>
+                    </ul>
+                    <p>
+
+                        MarsNavigator es más que una aplicación; es un viaje educativo interactivo que te invita a
+                        explorar las
+                        maravillas del espacio y las complejidades de la navegación interplanetaria.
+
+                        ¡Vamos juntos a conquistar el espacio exterior con MarsNavigator!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/image.jpg" alt="Objetivo de la Aplicación" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contenido de Secciones -->
+    <div id="contenedorSecciones">
+        <div id="seccion1">
+            <h2>Conceptos Claves</h2>
+            <p>Vamos a explorar los Conceptos claves que necesitas de Mateamtica para esta Aventura!</p>
+            <a id="btnConceptosClaves" class="btn btn-dark" href="secciones/seccion1.html">GO!</a>
+        </div>
+
+        <div id="seccion2">
+            <h2>Actividades de Trigonometria</h2>
+            <p>En esta sección podrás realizar actividades de Trigonometria en el contexto espacial!</p>
+            <a id="btnActividadesTrigonometria" class="btn btn-dark" href="secciones/seccion2.html">GO!</a>
+        </div>
+
+        <div id="seccion3">
+            <h2>Modelos 3D</h2>
+            <p>En esta sección podrás explorar modelos 3D de diversas órbitas de Marte, comprendiendo cómo las
+                coordenadas afectan el tiempo de viaje.</p>
+            <a id="btnModelos3D" class="btn btn-dark" href="secciones/seccion3.html">GO!</a>
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">MarsNavigator &copy; 2023 Victoria - Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+    <!-- Comenta temporalmente las referencias a los archivos JavaScript -->
+    <!--
+    <script src="js/seccion1.js"></script>
+    <script src="js/seccion2.js"></script>
+    <script src="js/seccion3.js"></script>
+    <script src="js/scripts-globales.js"></script>
+    -->
+
+
+    <!-- Incluye Bootstrap JS (puedes cambiar la URL si estás usando un CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
