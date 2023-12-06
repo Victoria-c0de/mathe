@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometría Esférica y Viajes Espaciales</title>
+    <!-- Agregar enlaces a los estilos de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MarsNavigator</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion1/seccion1.html">Conceptos claves</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion2/seccion2.html">Actividades de Trigonometria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion3/seccion3.html">Modelos 3D</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-2">
+        <h2 class="text-center">Trigonometría Esférica y Viajes Espaciales</h2>
+
+        <!-- Formulario de Entrada -->
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label for="polarR">Radio (r):</label>
+                    <input type="number" class="form-control" id="polarR" placeholder="Ingrese el radio">
+                </div>
+                <div class="form-group">
+                    <label for="polarTheta">Ángulo (θ):</label>
+                    <input type="number" class="form-control" id="polarTheta" placeholder="Ingrese el ángulo">
+                </div>
+                <button class="btn btn-dark" onclick="convertirCoordenadas()">Convertir</button>
+            </div>
+        </div>
+
+        <!-- Resultado -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-6">
+                <h4 class="text-center mb-3">Coordenadas Rectangulares Resultantes:</h4>
+                <p id="coordenadasRectangulares" class="text-center alert-info"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="Seno_y_coseno.gif" class="card-img-top img-fluid">
+            <div class="card-body">
+                <h5 class="card-title">Coordenadas Rectangulares</h5>
+                <p class="card-text text-justify" id="coordenadasRectangulares">La conversión de coordenadas polares a
+                    rectangulares
+                    implica el uso de funciones
+                    trigonométricas,
+                    específicamente las funciones seno y coseno.
+                    En trigonometría esférica, se utilizan coordenadas esféricas para describir la posición de un
+                    punto en
+                    una esfera. Estas coordenadas son la distancia radial , la colatitud y la longitud.
+                    La conversión de coordenadas polares a rectangulares en el ejemplo proporcionado es una
+                    simplificación..</p>
+                <p class="card-text text-justify"><small class="text-body-secondary"><strong>Las fórmulas son más
+                            complejas, pero el
+                            principio es similar,las
+                            funciones trigonométricas ayudan a convertir entre sistemas de coordenadas.</strong></small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="viaje-a-marte-nasa.gif" class="card-img-top img-fluid">
+            <div class="card-body">
+                <h5 class="card-title">Viaje a Marte</h5>
+                <p class="card-text text-justify">En el contexto de un viaje a Marte, podríamos imaginar que el punto de
+                    partida (por
+                    ejemplo,
+                    la Tierra) se describe en coordenadas esféricas, y el destino (Marte) también se
+                    describe de
+                    la misma
+                    manera.</p>
+                <p class="card-text text-justify"><small class="text-body-secondary"><strong>
+                            La conversión a coordenadas
+                            rectangulares puede
+                            ser un paso útil para calcular la
+                            distancia
+                            entre
+                            dos puntos en el espacio tridimensional,
+                        </strong></small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="solar-system-1.gif" class="card-img-top img-fluid">
+            <div class="card-body">
+                <h5 class="card-title">Trigonometría esférica</h5>
+                <p class="card-text text-justify">Utilizando fórmulas de distancia euclidiana.
+                    realizar la conversión de coordenadas polares a rectangulares es una aplicación concreta
+                    de la trigonometría que puede ayudar a comprender los fundamentos de la trigonometría
+                    esférica y su utilidad en contextos más avanzados.</p>
+                <p class="card-text"><small class="text-body-secondary"><strong>Como el cálculo de distancias en
+                            viajes espaciales</strong> .</small></p>
+                <a class="btn btn-outline-secondary " href="../seccion1.html">Volver</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p class="m-0 text-center text-white">MarsNavigator &copy; 2023 Victoria - Todos los derechos
+                reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Agregar enlaces a los scripts de Bootstrap y jQuery (necesario para Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Tu script JavaScript personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>

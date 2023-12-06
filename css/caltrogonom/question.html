@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarstNavigator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">Calculadora de Distancia Marte-Tierra</div>
+
+    <p>Los astrónomos han estado observando los planetas por cientos de años, no sólo para registrar sus órbitas, sino
+        para medir las distancias entre ellos. En el siglo XVII, Giovanni Cassini calculó la distancia entre Marte y la
+        Tierra y tuvo un error de sólo 7%. Las distancias entre los planetas cambian cada momento, pero para obtener un
+        número aproximado es mejor comenzar con la distancia de la Tierra al sol y la distancia de Marte al sol.
+        Entonces puedes calcular fácilmente la distancia relativa de Marte a la Tierra</p>
+
+    <section class="de¿isntancia">
+        <!--Se presenta el tema   conceptos claves para realizar los calculos-->
+        <h3 class="step1">La distancia de la Tierra al sol se considera como 1 UA, o una unidad astronómica. Los
+            científicos han
+            determinado que 1 UA equivale en promedio a 149.598.000 km.
+        </h3>
+        <div class="step2">
+            <h2>método Kepler</h2>
+            <p> La órbita de Marte requiere 688 días, o 1,88 años terrestres, estás listo para calcular la distancia de
+                Marte al sol.</p>
+        </div>
+
+    </section>
+
+    <form id="calculatorForm">
+        <label for="earthSunDistance" class="">Distancia Tierra-Sol (en km): </label>
+        <input type="number" id="earthSunDistance" required class=""><br>
+
+        <label for="martianOrbitPeriod">Período orbital de Marte (en días): </label>
+        <input type="number" id="martianOrbitPeriod" required class=""><br>
+
+        <button type="button" onclick="calculateDistance()">Calcular Distancia</button>
+    </form>
+
+    <h2>Resultado:</h2>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

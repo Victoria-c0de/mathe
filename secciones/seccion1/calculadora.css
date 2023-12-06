@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+
+}
+
+#formulario {
+    text-align: left;
+    padding: 24px;
+    width: 50%;
+}

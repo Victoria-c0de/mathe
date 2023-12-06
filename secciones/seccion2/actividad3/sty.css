@@ -1,0 +1,49 @@
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    /* Centra el cuadro en la página */
+    max-width: 600px;
+    /* Ajusta el ancho del cuadro según sea necesario */
+}
+
+.options-container {
+    margin-top: 20px;
+}
+
+.btn-outline-primary {
+    border-color: #f00064;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #06ff06;
+    border-color: #e5e7eb;
+    font-size: larger;
+}
+
+.result-modal .modal-content {
+    background-color: #44b950;
+    color: #000000;
+    width: max-content;
+    max-height: 40vh;
+    max-width: 100vh;
+    /* Establece la altura máxima de la modal como el 70% de la altura visible del viewport */
+    overflow-y: auto;
+}
+
+.result-modal th,
+.result-modal td {
+    border-color: #495057;
+}
+
+.result-modal .btn-primary {
+    background-color: #fefff9;
+}
+
+.result-modal .btn-primary:hover {
+    background-color: rgb(179, 0, 0);
+    border-color: #767b15;
+
+}

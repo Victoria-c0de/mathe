@@ -1,0 +1,72 @@
+button {
+    margin-top: 10px;
+}
+
+.resultado-container {
+    background-color: #d1ecf1;
+    border: 1px solid #b6d4e1;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.resultado-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.parrafo-secreto {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: color 0.3s;
+    /* Agregamos una transición de color de 0.3 segundos */
+    padding: 15px;
+    /* Añadimos un relleno para separar el texto del borde */
+    border-radius: 10px;
+    /* Agregamos bordes redondeados */
+    background-color: #ffeeba;
+    /* Fondo de color claro */
+    border: 2px solid #ffc107;
+    /* Borde de color amarillo */
+
+}
+
+.parrafo-secreto:hover {
+    color: rgb(255, 255, 255);
+    /* Cambiamos el color al pasar el cursor sobre el párrafo */
+    background-color: #ce0f0f;
+    /* Cambiamos el fondo al pasar el cursor */
+}
+
+/* Estilos para párrafos educativos */
+.educational-paragraph {
+    background-color: #d6eaf8;
+    /* Color de fondo */
+    padding: 15px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    margin-bottom: 20px;
+    /* Espaciado inferior */
+    font-family: 'Arial', sans-serif;
+    /* Fuente */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    line-height: 1.5;
+    /* Altura de línea */
+    color: #2c3e50;
+    /* Color de texto */
+}
+
+.educational-paragraph p {
+    margin-bottom: 10px;
+    /* Espaciado inferior entre párrafos */
+}
+
+.educational-paragraph strong {
+    font-weight: bold;
+    /* Texto en negrita */
+    color: #3498db;
+    /* Color de texto para elementos en negrita */
+}

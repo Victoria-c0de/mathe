@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometría Esférica</title>
+    <!-- Agregar enlaces a Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MarsNavigator</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion1/seccion1.html">Conceptos claves</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion2/seccion2.html">Actividades de Trigonometria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/secciones/seccion3/seccion3.html">Modelos 3D</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div>
+        <h2 class="text-center">Coordenadas Esféricas a Cartesianas</h2>
+        <p>
+            La Tierra y Marte se encuentran en el espacio tridimensional y que sus posiciones pueden describirse
+            mediante coordenadas esféricas.
+            <br><br>
+            Los ángulos <span class="angle">θ</span> y <span class="angle">φ</span> en este contexto podrían
+            representar
+            la posición relativa de Marte con respecto a la Tierra.
+        </p>
+    </div>
+    <form class="container mt-3">
+        <div class="row justify-content-center m-2">
+            <div class="form-group">
+                <label for="radius">Radio (R):</label>
+                <input type="number" class="form-control" id="radius" placeholder="Ingrese el radio">
+            </div>
+
+            <div class="form-group">
+                <label for="theta">Ángulo θ (en grados):</label>
+                <input type="number" class="form-control" id="theta" placeholder="Ingrese el ángulo θ">
+            </div>
+
+            <div class="form-group">
+                <label for="phi">Ángulo φ (en grados):</label>
+                <input type="number" class="form-control" id="phi" placeholder="Ingrese el ángulo φ">
+            </div>
+            <button type="button" class="btn btn-dark m-lg-3" onclick="calcularCoordenadas()">Calcular
+                Coordenadas</button>
+
+        </div>
+        <a class="btn btn-outline-dark " href="/secciones/seccion2/seccion2.html">Volver</a>
+        <div>
+            <p class="font-weight-bold">Coordenadas Cartesianas:</p>
+            <p id="result"></p>
+        </div>
+    </form>
+
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container text-center">
+            <p class="m-0 text-center text-white">MarsNavigator &copy; 2023 Victoria - Todos los derechos
+                reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
